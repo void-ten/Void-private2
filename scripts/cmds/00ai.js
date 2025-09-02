@@ -42,9 +42,9 @@ module.exports = {
       const prompt = event.body.substring(prefix.length).trim();
       if (!prompt) {
         await message.reply("");
-api.sendMessage({ sticker: "387545578037993" }, event.threadID);
-api.sendMessage("🟢 𝗛𝖾𝗅𝗅𝗈 JE PEUX FAIRE QUOI POUR TOI AJOURD'HUI🫡🫡⁉️" , event.threadID);
-api.setMessageReaction("🟡", event.messageID, () => {}, true);
+api.sendMessage({ sticker: "775506618545963" }, event.threadID);
+api.sendMessage("🌀 𝗦𝗔𝗟𝗨𝗧 𝗤𝗨𝗘 𝗣𝗨𝗜𝗦 𝗝𝗘 𝗙𝗔𝗜𝗥𝗘 𝗣𝗢𝗨𝗥 𝗧𝗢𝗜 𝗔𝗨𝗝𝗢𝗨𝗥𝗗'𝗛𝗨𝗜 ⁉️" , event.threadID);
+api.setMessageReaction("🌬️", event.messageID, () => {}, true);
         return;
       }
       const senderID = event.senderID;
